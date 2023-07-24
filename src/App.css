@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  height: 100vh;
+  background: linear-gradient(to top, rgb(160, 207, 225), pink, rgb(241, 158, 243));
+}
+
+.boxes{
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color:rgb(203, 207, 236);
+}
+
+.submit-btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color:rgb(168, 177, 243);
+  position: absolute;
+  top: 50%;
+  left: 43%;
+
+}
+
+.submit-btn:hover{
+  background-color: #61dafb;
+}
+
+.boxes2{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 20px;
+
+}
+
+.text1{
+  position: absolute;
+  top: 100px;
+  left: 600px;
+}
+
+.text2{
+  position: absolute;
+  top: 185px;
+  left: 560px;
+}
+
+
+.text3{
+  position: absolute;
+  top: 275px;
+  left: 590px;
+}
+
+
+.array{
+  width:  auto;
+  height: auto;
+  border: 3px solid black;
+  background-color: cadetblue;
+  position: absolute;
+  top: 80px ;
+  left: 100px;
+  right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.box{
+  padding: 20px;
+  width: auto;
+  height:  auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color:rgb(166, 88, 166);
+}
+
+.back-btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color:rgb(168, 177, 243);
+  position: absolute;
+  top: 70%;
+  left: 43%;
+}
+
+.back-btn:hover{
+  background-color: #61dafb;
+}
